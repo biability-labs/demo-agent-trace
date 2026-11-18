@@ -1,0 +1,44 @@
+{
+  "version": "0.1",
+  "id": "224208dc-1ae0-4d7f-9639-3ea82627c97f",
+  "timestamp": "2026-11-18T16:44:59Z",
+  "vcs": {
+    "type": "git",
+    "revision": "36b9d0101b87fa27d00540f4fdbd1a213d20674f"
+  },
+  "tool": {
+    "name": "codex"
+  },
+  "metadata": {
+    "dev.openai.codex": {
+      "trace_hook_version": "1.0"
+    }
+  },
+  "files": [
+    {
+      "path": "src/calc.py",
+      "conversations": [
+        {
+          "contributor": {
+            "type": "mixed",
+            "model_id": "openai/gpt-5.6-terra"
+          },
+          "ranges": [
+            {
+              "start_line": 5,
+              "end_line": 5,
+              "content_hash": "sha256:088b771f10f527d1"
+            }
+          ],
+          "metadata": {
+            "confidence": 0.8,
+            "confidence_reason": "Una línea atribuida previamente a IA fue modificada en este commit.",
+            "dev.openai.codex": {
+              "turn_id": null
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

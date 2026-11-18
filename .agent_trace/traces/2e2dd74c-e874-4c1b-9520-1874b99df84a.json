@@ -1,0 +1,36 @@
+{
+  "version": "0.1",
+  "id": "2e2dd74c-e874-4c1b-9520-1874b99df84a",
+  "timestamp": "2026-11-18T16:43:54Z",
+  "vcs": {
+    "type": "git",
+    "revision": "66386ec0e9d7a226feda98865a6b912348f781da"
+  },
+  "tool": {
+    "name": "codex"
+  },
+  "metadata": {
+    "dev.openai.codex": {
+      "trace_hook_version": "1.0"
+    }
+  },
+  "files": [
+    {
+      "path": "src/calc.py",
+      "conversations": [
+        {
+          "contributor": {
+            "type": "human"
+          },
+          "ranges": [
+            {
+              "start_line": 1,
+              "end_line": 2,
+              "content_hash": "sha256:8d9c4e7cf09705c6"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

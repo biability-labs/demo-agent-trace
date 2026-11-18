@@ -1,0 +1,45 @@
+{
+  "version": "0.1",
+  "id": "64e251b5-cccb-47cc-a482-45883e1625bd",
+  "timestamp": "2026-11-18T16:44:31Z",
+  "vcs": {
+    "type": "git",
+    "revision": "c89150eab94a4fc007cc12bf14d411ab061bab94"
+  },
+  "tool": {
+    "name": "codex"
+  },
+  "metadata": {
+    "dev.openai.codex": {
+      "trace_hook_version": "1.0"
+    }
+  },
+  "files": [
+    {
+      "path": "src/calc.py",
+      "conversations": [
+        {
+          "contributor": {
+            "type": "ai",
+            "model_id": "openai/gpt-5.6-terra"
+          },
+          "ranges": [
+            {
+              "start_line": 3,
+              "end_line": 6,
+              "content_hash": "sha256:dab7e1133bee5612"
+            }
+          ],
+          "url": "codex://sessions/01a1ef68-ffd1-7d20-ba08-81cf30fa9d02",
+          "metadata": {
+            "confidence": 1.0,
+            "confidence_reason": "La línea coincide con la salida capturada de Codex.",
+            "dev.openai.codex": {
+              "turn_id": "01a1ef8b-5080-7ff3-b70d-6f07ae91637a"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

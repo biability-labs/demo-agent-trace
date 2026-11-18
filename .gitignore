@@ -1,0 +1,13 @@
+# Configuración local de editores
+.idea/
+.vscode/
+
+# Artefactos de Python
+__pycache__/
+*.py[cod]
+
+# Archivos del sistema operativo
+.DS_Store
+
+# Estado efímero de los hooks de Agent Trace
+.agent_trace/.pending/
